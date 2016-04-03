@@ -1,0 +1,40 @@
+.single-post {
+  // background: red;
+  #wpadminbar {
+    display: none;
+  }
+  .container-fluid {
+    header {
+      .logo_left {
+        display: none;
+      }
+    }
+  }
+  .container {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+
+    .hero {
+
+    }
+    .main_content {
+      padding: 0 35px;
+    }
+  }
+  header {
+
+   .navbar-header {
+    .navbar-toggle {
+      // display: block;
+    }
+
+   }
+   .navbar-collapse {
+      // display: none !important;
+      &.in {
+        display: block !important;
+      }
+    }
+  }
+}

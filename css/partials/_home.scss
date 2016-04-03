@@ -1,0 +1,469 @@
+body.home {
+  #wpadminbar {
+    display: none !important;
+  }
+  .container {
+    max-width: none;
+    padding: 0;
+    margin-top: 0;
+    overflow: hidden;
+
+    /* header styles --- extract out later  */
+
+
+
+  }
+  .main_content {
+    // max-width: 80vw;
+    margin: 0 auto;
+    @media(max-width: $tablet){
+      margin-top: 30px;
+    }
+    .widget {
+      border: none;
+    }
+    .guest-editor-sidebar-widget {
+      padding-top: 0;
+      text-align: center;
+      .guest-editor {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        .guest-title {
+          font-size: 18px;
+          text-transform: capitalize;
+          .title h5 {
+            font-size: 18px;
+            text-transform: capitalize;
+          }
+        }
+      }
+      .content-wrapper {
+        padding: 15px 0;
+        border-top: 2px solid $med-grey;
+        border-bottom: 2px solid $med-grey;
+
+        .guest-title {
+          .title h5 {
+            font-size: 18px;
+          }
+        }
+        .editor-description {
+          max-width: 60%;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    #text-5 {
+      .widget_title {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .textwidget {
+        border-top: 2px solid $med-grey;
+        border-bottom: 2px solid $med-grey;
+        padding: 15px 0;
+        .discover-widget {
+          position: relative;
+          .three-block {
+            .item {
+              display: block;
+              text-align: center;
+              height: 80px;
+              background-size: cover;
+              a {
+                color: $white;
+                text-transform: lowercase;
+                font-family: $majesti-banner !important;
+                font-size: 24px;
+                position: relative;
+                top: calc(50% - 10px);
+                transform: translateY(-50%);
+              }
+              &.fashion {
+                background-image: url('../images/fashion.png');
+                background-repeat: no-repeat;
+              }
+              &.travel {
+                background-image: url('../images/travel.png');
+              }
+              &.music {
+                background-image: url('../images/music.png');
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .blog_content_col {
+      @include clearfix;
+      display: block;
+      padding: 0 25px;
+      margin-top: 50px;
+      @media(max-width: $mobile-lg) {
+        padding: 0 15px;
+
+      }
+      /* if you are not in the top column and not the hero image */
+      @media(min-width: $mobile-lg) {}
+      &.hero-column {
+        // padding: 0;
+        .col-sm-12 {
+          // padding: 0;
+
+        }
+        .post {
+          // float: left;
+          // width: 66.666%;
+          // padding: 0 25px;
+
+        }
+      }
+      .post {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        @media(max-width: $mobile-lg){
+          margin-left: 0;
+          margin-right: 0;
+        }
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        .row {
+          margin: 0;
+        }
+        .col-sm-12 {
+          padding-left: 15px;
+          padding-right: 15px;
+          img {
+            // width: 100%;
+          }
+          &:after {
+            content: '';
+            display: block;
+            position: relative;
+            height: 1px;
+            background: $med-grey;
+            top: 10px;
+          }
+          .row {
+            .col-md-12 {
+              padding: 0;
+            }
+            .page_title {
+              text-align: left !important;
+              margin-bottom: 5px;
+              font-family: $majesti-banner;
+              a.title-link {
+                font-family: $majesti-banner;
+                text-transform: capitalize;
+                font-weight: 500;
+                font-size: 20px;
+              }
+            }
+          }
+          p {
+            text-align: left;
+          }
+        }
+        .double-lines {
+          display: none;
+        }
+      }
+      #hero {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        .wp-post-image {
+          width: 100%;
+        }
+        .row {
+          .col-sm-12 {
+            &:after {
+              display: none;
+            }
+            .row {
+              .page_title {
+                text-align: center !important;
+              }
+            }
+          }
+        }
+        p {
+          text-align: center;
+          max-width: 70%;
+          margin: 0 auto;
+        }
+      }
+
+      .blog_pagination {
+        display: none;
+      }
+    }
+
+    .sidebar {
+      padding: 0 25px;
+      border-left: 1px solid $light-grey;
+      box-shadow: 0px 1.2px 1px 0px $light-grey;
+      &.instagram {
+        float: right;
+      }
+      .sidebar-top {
+        display: none;
+      }
+      .widget {
+        .widget_title, .guest-editor > h3 {
+          font-family: $majesti-bold !important;
+          font-style: italic;
+          font-weight: 600;
+          color: $black;
+          text-transform: capitalize;
+          font-size:26px;
+        }
+      }
+      #search-2 {
+        display: none;
+      }
+      .widget_nimbus-recent-posts {
+        border-bottom: 2px solid $med-grey;
+        .row {
+          .col-xs-6 {
+            width: 100%;
+          }
+        }
+      }
+      #swifty-img-widget-2 {
+
+        .swifty_imgwidget_ul {
+          padding: 15px 0;
+          border-top: 2px solid $med-grey;
+          border-bottom: 2px solid $med-grey;
+          @include clearfix;
+          li {
+            float: left;
+            width: calc(50% - 6px);
+            span {
+              text-transform: capitalize;
+              font-size: 18px;
+              // font-family: $majesti-banner !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .guest-editors {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 30px 0;
+    margin-top: 0;
+    &:before {
+      // content: '';
+      // display: block;
+      position: absolute;
+      width: 80vw;
+      left: 95px;
+      top: 40px;
+      margin: 40px;
+      height: 85%;
+      border: 1px solid #666666;
+      @media(max-width: $mobile) {
+        display: none;
+      }
+      @media(max-width: $mobile-lg) {
+        left: 35px;
+        height: 75%;
+      }
+      @media(max-width: $mobile-sm) {
+        left: 12px;
+        width: 75vw;
+      }
+    }
+    .widget_title {
+      @include widget-title;
+      color: $black;
+      &:before, &:after {
+        content: '';
+        display: inline-block;
+        width: 100px;
+        height: 1px;
+        background: $dark-grey;
+        vertical-align: middle;
+        @media(max-width: $mobile){
+          width: 50px;
+        }
+      }
+      &:before {
+        margin-right: 15px;
+      }
+      &:after {
+        margin-left: 15px;
+      }
+    }
+    ul {
+      width: 100%;
+      @include clearfix;
+      border: 1px solid #666666;
+      list-style: none;
+      padding: 35px;
+      max-width: 85vw;
+      margin: 0 auto;
+      min-height: 340px;
+      position: relative;
+      @media(max-width: $mobile-lg) {
+        max-width: 50vw;
+      }
+      &:before {
+        content: '';
+        display: block;
+        width: 95%;
+        height: 100%;
+        background: black;
+        height: 370px;
+        background: transparent;
+        z-index: 0;
+        position: absolute;
+        left: 20px;
+        top: -15px;
+        border: 1px solid black;
+        right: -15px;
+        @media(max-width: $mobile-lg) {
+          display: none;
+        }
+
+      }
+      .subcat {
+        float: left;
+        width: calc(25% - 20px);
+        position: relative;
+        margin-left: 5px;
+        @media(max-width: $mobile) {
+          display: block;
+          float: none;
+          width: 100%;
+          margin: 0;
+        }
+        a {
+          font-size: 16px;
+        }
+        &:last-of-type {
+          img {
+            // margin: 25px;
+          }
+        }
+        &:before {
+
+        }
+        img {
+          width: 75%;
+          margin: 20px;
+
+          // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          // -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+      }
+    }
+  }
+  .instagram {
+    .widget_title {
+      @include widget-title;
+      text-align: center;
+    }
+  }
+}
+
+
+.hero-banner {
+  position: relative;
+  display: block;
+  .cycloneslider {
+    margin-bottom: 0;
+    .cycloneslider-slides {
+      .cycloneslider-slide {
+        .cycloneslider-caption {
+          background: none;
+          text-align: center;
+          color: $black;
+          position: relative;
+          top: initial;
+          left: initial;
+          bottom: initial;
+          padding-top: 10px;
+          // background: transparent;
+          // top: 50%;
+          // left: 50%;
+          // text-align: center;
+          // transform: translateX(-50%);
+          opacity: 1;
+
+          .cycloneslider-caption-title,
+          .cycloneslider-caption-description {
+            color: $black;
+            font-family: "Majesti-Banner-Medium";
+          }
+          .cycloneslider-caption-title {
+            font-size: 26px !important;
+            &:after {
+              content: '';
+              display: none;
+              text-align: center;
+              width: 20px;
+              height: 2px;
+              background: $black;
+              position: relative;
+              margin: 10px auto;
+            }
+          }
+          .cycloneslider-caption-description {
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .cyconeslider-caption {
+    // position: absolute;
+    position: relative;
+    text-align: center;
+    background: none;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    text-align: center;
+    .cycloneslider-caption-title {
+        color: $black;
+        // font-family: $sans;
+
+        font-family: "Majesti-Banner-Medium";
+      .title { text-transform: capitalize;}
+      .subtext {
+        text-transform: capitalize;
+        font-size: 14px;
+      }
+      color: $black;
+      font-color: $black;
+    }
+    .cycloneslider-caption-description {
+      text-transform: capitalize;
+      color: $black;
+      font-family: "Majesti-Banner-Medium";
+    }
+  }
+  .banner {
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+}
+

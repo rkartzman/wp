@@ -1,0 +1,22 @@
+@mixin clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin widget-title {
+  font-family: $majesti-bold !important;
+  font-style: italic;
+  font-weight: 600;
+  color: $black;
+  text-transform: capitalize;
+  font-size: 35px;
+}

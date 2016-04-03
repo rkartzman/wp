@@ -1,0 +1,85 @@
+$white: #fff;
+$light-grey: #f2f2f2;
+$header-white: $light-grey;
+$footer-white: $light-grey;
+$med-grey: rgba(205,205,205,1);
+$med-grey-alt: rgba(209,209,209,1);
+$dark-grey: rgba(56,56,56,1);
+$mobile-active-grey: $dark-grey;
+$border-grey: rgba(80,80,80,1);
+$slate: rgba(56,56,56,1);
+
+
+
+
+$primary-gold: #FFDB63;
+$primary-font-color: #7E8892;
+$primary-blue: #29314C;
+
+// from style guide in order
+$red: #ea0020;
+$teal: #98d6d2;
+$blue: #2ba2e4;
+$yellow: #fbf800;
+$dark-pink: #e8138c;
+$light-green: #b4d73d;
+$seafoam-green: #21dfcf;
+$pink: rgba(242, 37, 139, 1);
+$green: rgb(171, 199, 44);
+$transparent-blue: rgba(147, 207, 239, 0.8);
+$orange-alt: rgba(244, 129, 29, 1);
+$seafoam-green-alt: rgba(136, 206, 200, 1);
+$blue-alt: #33DECE;
+
+$bronze: rgb(187, 139, 39);
+$silver: rgb(173,175,179);
+$gold: rgb(253,191,86);
+
+$light-pink: rgb(238, 79, 161);
+
+$black: rgba(0,0,0,1);
+$lime-green: rgba(168,207,42,1);
+$lighter-black: rgba(35,35,35,1);
+$orange: rgb(247, 110, 0);
+
+$nav-height: 90px;
+$site-width: 1200px;
+$footer-height: 377px;
+$slider-width: 1168px;
+$mobile-nav-height: 70px;
+$header-height: 138px;
+
+/* Fonts */
+$font-awesome: 'FontAwesome';
+// $avenir: 'Avenir';
+// $avenir-black: 'Avenir-Black';
+// $helvetica: 'HelveticaNeue';
+// $avenir-light: 'Avenir Next';
+// $serif: 'Times New Roman';
+$icomoon: 'icomoon';
+
+$sans: 'firasans';
+$playfair: 'PlayfairDisplay';
+$playfair-black: 'PlayfairDisplay Black';
+$abril-fatface: 'Abril Fatface';
+$majesti-banner: 'Majesti-Banner';
+$majesti-bold: 'Majesti-Banner-Bold';
+$miller-banner: 'MillerBanner Roman';
+
+/* Breakpoints */
+$mobile-sm: 600px;
+$mobile-lg: 767px;
+$mobile: 800px;
+$tablet: 1024px;
+
+/* Speeds */
+$slow: .5s;
+$fast: .2s;
+
+/* Transitions */
+$ease: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+$transition-speed: .3s;
+
+// z-index levels
+$z-index-overlay: 100;
+
