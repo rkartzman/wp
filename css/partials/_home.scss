@@ -386,8 +386,13 @@ body.home {
   display: block;
   .cycloneslider {
     margin-bottom: 0;
+    max-width: none;
     .cycloneslider-slides {
+
       .cycloneslider-slide {
+        img {
+          width: 100%;
+        }
         .cycloneslider-caption {
           background: none;
           text-align: center;

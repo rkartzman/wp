@@ -484,7 +484,10 @@ body.home .instagram .widget_title {
   position: relative;
   display: block; }
   .hero-banner .cycloneslider {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    max-width: none; }
+    .hero-banner .cycloneslider .cycloneslider-slides .cycloneslider-slide img {
+      width: 100%; }
     .hero-banner .cycloneslider .cycloneslider-slides .cycloneslider-slide .cycloneslider-caption {
       background: none;
       text-align: center;
