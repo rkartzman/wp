@@ -550,6 +550,9 @@ body.home .instagram .widget_title {
 .single-post header .navbar-collapse.in {
   display: block !important; }
 
+body.category .container-fluid header .col-md-4:not(.top-nav) {
+  display: none; }
+
 /* Fonts */
 /* titles: MajestiBanner Medium */
 /* subtitle: Firasans regular */
