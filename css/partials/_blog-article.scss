@@ -16,7 +16,13 @@
     padding-right: 0;
 
     .hero {
-
+      position: relative;
+      text-align: center;
+      display: block;
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
     }
     .main_content {
       padding: 0 35px;

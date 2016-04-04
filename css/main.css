@@ -545,6 +545,13 @@ body.home .instagram .widget_title {
   max-width: none;
   padding-left: 0;
   padding-right: 0; }
+  .single-post .container .hero {
+    position: relative;
+    text-align: center;
+    display: block; }
+    .single-post .container .hero img {
+      width: 100%;
+      max-width: 100%; }
   .single-post .container .main_content {
     padding: 0 35px; }
 .single-post header .navbar-collapse.in {
