@@ -133,7 +133,7 @@ header {
           @media (min-width: 767px) and (max-width: 820px) {
             header .row #menu_row .navbar-collapse #menu-main-menu .menu-item {
               margin: 0 7px; } }
-          @media (min-width: 910px) {
+          @media (min-width: 1060px) {
             header .row #menu_row .navbar-collapse #menu-main-menu .menu-item {
               float: left;
               margin: 0 15px; } }
@@ -563,7 +563,7 @@ body.home .instagram .widget_title {
 .single-post header .navbar-collapse.in {
   display: block !important; }
 
-body.category .container-fluid header .col-md-4:not(.top-nav) {
+body.category .container-fluid header .col-md-4:not(.top-nav), body.page .container-fluid header .col-md-4:not(.top-nav) {
   display: none; }
 
 body.category .container {
