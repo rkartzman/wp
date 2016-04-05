@@ -67,8 +67,8 @@ th, ul.css-tabs a, div.accordion h2, h2.hide_show_title span { font-family: "pro
 td, td a, td a:hover {font-family: "proxima-nova",sans-serif !important;}
 caption { font-family: "proxima-nova",sans-serif !important;}
 /* Header */
-.text_logo, .text_logo a { font-family: "proxima-nova",sans-serif !important;  }
-.navbar-default .navbar-brand, .navbar-default a, .navbar-brand a, .navbar-default:hover .navbar-brand:hover, .navbar-default a:hover, .navbar-brand a:hover { font-family: "proxima-nova",sans-serif !important; }
+/*.text_logo, .text_logo a { font-family: "proxima-nova",sans-serif !important;  }
+.navbar-default .navbar-brand, .navbar-default a, .navbar-brand a, .navbar-default:hover .navbar-brand:hover, .navbar-default a:hover, .navbar-brand a:hover { font-family: "proxima-nova",sans-serif !important; }*/
 .carousel-caption p { font-family: "proxima-nova",sans-serif !important; }
 /* Footer */
 #credit, #credit a, #copyright, #copyright a { font-family: "proxima-nova",sans-serif !important; }

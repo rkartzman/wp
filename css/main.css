@@ -159,8 +159,6 @@ header {
                 header .row #menu_row .navbar-collapse #menu-main-menu .menu-item .dropdown-menu .menu-item a:focus {
                   color: black !important; }
           header .row #menu_row .navbar-collapse #menu-main-menu .menu-item a {
-            font-family: 'Majesti-Banner-Bold' !important;
-            font-weight: 600;
             text-transform: capitalize;
             font-size: 16px;
             padding-left: 0;
@@ -580,7 +578,3 @@ a:hover {
 
 a.dropdown-toggle:hover {
   color: black; }
-
-header .navbar-default .navbar-nav > li > a, header .fallback_cb > ul > li > a {
-  font-family: 'firasans' !important;
-  font-weight: 100; }
