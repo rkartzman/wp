@@ -566,6 +566,9 @@ body.home .instagram .widget_title {
 body.category .container-fluid header .col-md-4:not(.top-nav) {
   display: none; }
 
+body.category .container {
+  margin-top: 90px; }
+
 /* Fonts */
 /* titles: MajestiBanner Medium */
 /* subtitle: Firasans regular */
