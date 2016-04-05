@@ -265,6 +265,9 @@ body.home {
     text-align: center;
     margin: 30px 0;
     margin-top: 0;
+    @media(max-width: $mobile) {
+      display: none;
+    }
     &:before {
       // content: '';
       // display: block;
@@ -342,7 +345,7 @@ body.home {
       }
       .subcat {
         float: left;
-        width: calc(25% - 20px);
+        width: calc(25% - 10px);
         position: relative;
         margin-left: 5px;
         @media(max-width: $mobile) {
@@ -472,3 +475,11 @@ body.home {
 
 }
 
+#footer_widget_left {
+  padding-left: 0;
+  .design {
+    h5 {
+      display: inline-block;
+    }
+  }
+}

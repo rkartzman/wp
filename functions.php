@@ -102,7 +102,7 @@ function foaf_register_sidebars() {
     register_sidebar(array(
         'name' => 'Guest Editors Widget',
         'id' => 'guest_editors_widget',
-        'before_widget' => '<div class="guest-editors" style="position: relative !important; display: block;">',
+        'before_widget' => '<div class="guest-editors">',
         'after_widget' => '</div>',
         'before_title' => '<h3 class="widget_title">',
         'after_title' => '</h3>'

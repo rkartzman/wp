@@ -3,15 +3,7 @@
         <div class="container footer">
             <div class="row footer_widgets">
                 <div class="double-lines footer-top"></div>
-                <div id="footer_widget_left" class="col-sm-4">
-                    <?php
-                    if (is_active_sidebar( 'Footer Left' )) {
-                        dynamic_sidebar( 'Footer Left' );
-                    } else {
-                        get_template_part( 'parts/example_widgets', 'footer');
-                    }
-                    ?>
-                </div>
+
                 <div id="footer_widget_center_left" class="col-sm-4">
                     <?php
                     if (is_active_sidebar( 'Footer Center' )) {
@@ -40,6 +32,15 @@
                 </div>
 
             </div>
+        </div>
+        <div id="footer_widget_left" class="col-sm-6">
+            <?php
+            if (is_active_sidebar( 'Footer Left' )) {
+                dynamic_sidebar( 'Footer Left' );
+            } else {
+                get_template_part( 'parts/example_widgets', 'footer');
+            }
+            ?>
         </div>
 <?php wp_footer(); ?>
 <script language="JavaScript">
