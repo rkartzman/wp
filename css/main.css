@@ -550,7 +550,8 @@ body.home .instagram .widget_title {
 .single-post .container {
   max-width: none;
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  margin-top: 70px; }
   .single-post .container .hero {
     position: relative;
     text-align: center;
@@ -558,6 +559,8 @@ body.home .instagram .widget_title {
     .single-post .container .hero img {
       width: 100%;
       max-width: 100%; }
+  .single-post .container .no-hero {
+    text-align: center; }
   .single-post .container .main_content {
     padding: 0 35px; }
 .single-post header .navbar-collapse.in {

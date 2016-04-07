@@ -14,7 +14,7 @@
     max-width: none;
     padding-left: 0;
     padding-right: 0;
-
+    margin-top: 70px;
     .hero {
       position: relative;
       text-align: center;
@@ -23,6 +23,9 @@
         width: 100%;
         max-width: 100%;
       }
+    }
+    .no-hero {
+      text-align: center;
     }
     .main_content {
       padding: 0 35px;
