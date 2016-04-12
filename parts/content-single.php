@@ -6,6 +6,7 @@
         MultiPostThumbnails::the_post_thumbnail(get_post_type(),'secondary-image');
     endif; ?>
     <div class="title"><h2 class="page_title"><?php get_template_part( 'parts/title', 'page'); ?></h2></div>
+    <div class="subtitle"><h5 class="page_subtitle"><?php echo the_subtitle(); ?></div></h5>
 </div>
 
 <?php
@@ -31,9 +32,9 @@ if ($sidebar_select == 'none') {
 ?>
     <div <?php post_class('main_content content row'); ?>>
         <div class="col-xs-12">
-            <?php /*
-            <h2 class="page_title"><?php get_template_part( 'parts/title', 'page'); ?></h2>
-            */  ?>
+            <?php
+            // <h2 class="page_title"><?php get_template_part( 'parts/title', 'page'); ?></h2>
+              ?>
             <?php
             if (get_post_meta($post->ID, 'toggle_featured', true) == "show") {
                 get_template_part( 'parts/image', '1168_526');
