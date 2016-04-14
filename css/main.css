@@ -311,6 +311,9 @@ body.home .main_content {
             text-transform: capitalize;
             font-weight: 500;
             font-size: 20px; }
+        body.home .main_content .blog_content_col .post .col-sm-12 .row .page_subtitle {
+          margin-top: 0;
+          margin-bottom: 5px; }
         body.home .main_content .blog_content_col .post .col-sm-12 p {
           text-align: left; }
       body.home .main_content .blog_content_col .post .double-lines {

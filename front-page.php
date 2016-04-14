@@ -43,6 +43,7 @@ if ($nimbus_blog_sidebar_position == 'right') {
 
                             <div class="col-md-12">
                                 <h2 class="page_title"><a href="<?php the_permalink(); ?>"><?php get_template_part( 'parts/title', 'post'); ?></a></h2>
+                                <h5 class="page_subtitle"><?php echo the_subtitle(); ?></h5>
                             </div>
                         </div>
                         <?php n_clear(); ?>
@@ -67,6 +68,7 @@ if ($nimbus_blog_sidebar_position == 'right') {
 
 
                                 <h2 class="page_title"><a href="<?php the_permalink(); ?>" ><?php get_template_part( 'parts/title', 'post'); ?></a></h2>
+                                <h5 class="page_subtitle"><?php echo the_subtitle(); ?></h5>
                             </div>
                         </div>
                                 <?php n_clear(); ?>
@@ -123,6 +125,7 @@ if ($nimbus_blog_sidebar_position == 'right') {
 
                             <div class="col-md-12">
                                 <h2 class="page_title"><a href="<?php the_permalink(); ?>"><?php get_template_part( 'parts/title', 'post'); ?></a></h2>
+                                <h5 class="page_subtitle"><?php echo the_subtitle(); ?></h5>
                             </div>
                         </div>
                         <?php n_clear(); ?>
@@ -147,6 +150,7 @@ if ($nimbus_blog_sidebar_position == 'right') {
 
 
                                 <h2 class="page_title"><a href="<?php the_permalink(); ?>"><?php get_template_part( 'parts/title', 'post'); ?></a></h2>
+                                <h5 class="page_subtitle"><?php echo the_subtitle(); ?></h5>
                             </div>
                         </div>
                                 <?php n_clear(); ?>
